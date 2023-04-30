@@ -1,0 +1,293 @@
+#wrapper {
+    font-family: tahoma;
+    
+}
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+#subheader {
+    float: left;
+    width: 100%;
+    background: #ab4343;
+    color: white;
+    margin-top: -15px;
+    margin-bottom: 1px;
+}
+#subheader p {
+    font-size: 45px;
+    float: left;
+    margin: 7px;
+    margin-left: 200px;
+    font-family: serif;
+    font-weight: bolder;
+    padding-top: 3px;
+}
+#subheader a {
+    float: right;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+/************* logo Design **************/
+#main-header {
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    background: #ab6a6a;
+    color: white;
+    
+    
+}
+#logo {
+    width: 450px;
+    margin-top: 20px;
+    padding-left: 10px;
+    float: left;
+}
+
+#logo span {
+    font-weight: bolder;
+    font-size: 40px;
+}
+#insideLogo {
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-left: 80px;
+}
+/******** Search Area Style ********/
+#searchArea {
+    float: left;
+    margin: 25px;    
+}
+.searchField {
+    float: left;
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+}
+.searchBtn {
+    float: left;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/************* User Menu Styling ********/
+#userMenu {
+   float: right;
+}
+#userMenu li {
+    float: left;
+    width: 100px;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 40px;
+    text-align: center;
+    border-left: 2px solid white;
+    
+}
+#userMenu li a {
+    color: white;
+    text-decoration: none;
+}
+#userMenu li a:hover {
+    font-size: 25px;
+    transition: all .5s ease;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+    
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+    width: 160px;
+    padding: 5px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: #ebebe0;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+    background: #d6d6c2;
+        } 
+/* Add a grey background color to dropdown links on hover */
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/***********Navigation Bar Style *********/
+#navigationBar {
+    width: 100%;
+    height: 50px;
+    background: #ab6a6a;
+    float: left;
+    margin-top: 1px;
+}
+#change_lang {
+    float: right;
+    margin-top: 20%;
+    margin-right: 30%;
+}
+#language {
+    margin: 10px;
+    width: 150px;
+    height: 25px;
+}
+
+nav {
+    float: left;
+    margin-left: 10%; 
+    
+}
+nav a {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 15px 15px 15px;
+    text-decoration: none;
+    margin-bottom: 10px;  
+    }
+
+nav a:hover{
+    color: black;
+    transition: all .7s ease;
+}
+
+
+
+
+/************ Image Slider Styling ****/
+
+#imgSlider {
+    float: left;
+    width: 100%;
+    max-width: 1590px;
+    height: 450px;
+    max-height: 450px;
+}
+#slider1 {
+    height: 450px;
+    width: 1590px;
+} 
+#slider2 {
+    height: 450px;
+    width: 1590px;
+}
+#slider3 {
+    height: 450px;
+    width: 1590px;
+}
+/************ Footer Style ********/
+
+footer {
+    float:left;
+    width: 100%;
+    min-height: 220px;
+    background: #595959;
+    color: #999999;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#subFooter_1 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    text-align: justify;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+#subFooter_1 a{
+    color: #999999;
+    font-weight: bold;
+}
+#subFooter_2 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-left: 20px;
+    border-left: 1px solid #808080;
+}
+#subFooter_3 {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    padding-top: 8px;
+    border-left: 1px solid #808080;
+}
+#subFooter_4 {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    padding-top: 8px;
+    border-left: 1px solid #808080;
+}
+#subFooter_3 li, #subFooter_4 li {
+    text-align: center;
+    list-style: none;
+    text-align: justify;
+    margin-left: 80px;
+}
+#subFooter_3 li a, #subFooter_4 li a{
+    text-decoration: none;  
+    color: #999999;
+}
+#subFooter_1 a:hover, #subFooter_3 li a:hover,#subFooter_4 li a:hover{ 
+    color: #cccccc;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
